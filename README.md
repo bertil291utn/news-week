@@ -27,11 +27,6 @@ Just open/double click index.html
 - Twitter: [@btandayamo](https://twitter.com/batandayamo)
 - Linkedin: [Bertil Tandayamo](http://bit.ly/bertil_linkedin)
 
-👤 **Juan Paulo Perez Tejada**
-
-- Github: [@Maclenn77](https://github.com/Maclenn77)
-- Twitter: [@srjuanpapas](https://twitter.com/srjuanpapas)
-- Linkedin: [linkedin](https://mx.linkedin.com/in/juanpaulopereztejada )
 
 
 
