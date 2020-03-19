@@ -23,20 +23,36 @@
         <section>
             <h2 class="hidden">.</h2>
             <div class="top-navbar pl-3 container mw-100">
-                <div class="d-flex justify-content-between align-items-center">
-                    <a href="#" class="logo-nav">
-                        <img src="assets/logo.svg" alt="logo" class="">
-                    </a> <!-- logo -->
+                <div class="contenedor-nav d-flex justify-content-between align-items-center">
+                    <div class="left-container">
+                        <div class="header-left d-flex align-items-center">
+                            <a href="#" class="logo-nav">
+                                <img src="assets/logo.svg" alt="logo" class="mr-3">
+                            </a> <!-- logo -->
+                            <a href="#" class="weather d-flex align-items-center">
+                                <div class="weather-deg hide-element">
+                                    <img src="https://g.newsweek.com/img/weather/30.webp" alt="weather" class="">
+                                    <span class="font-weight-bolder mr-3">21&deg;</span>
+                                </div>
+                                <span class="weather-country hide-element font-weight-bolder">Cayambe, EC <i
+                                        class="fa fa-angle-right fa-lg subs-icon ml-1"></i></span>
+                            </a>
+                        </div>
+                        <date class="mt-2 hide-element">Thu, Mar 19, 2020</date>
+                    </div>
+                    <img src="assets/logo.svg" alt="logo" class="center-logo hide-element">
                     <div class="header-right d-flex align-items-center">
                         <button type="button" class="sign-in btn font-weight-bolder text-white">SIGN IN</button>
-                        <button type="button" class="subscribe btn bg-light font-weight-bolder p-1">SUBSCRIBE</button>
-                        <i class="fa fa-bars py-2 px-3 fa-2x"></i>
+                        <button type="button"
+                            class="subscribe btn bg-light font-weight-bolder d-flex align-items-center">SUBSCRIBE <i
+                                class="fa fa-angle-right fa-lg subs-icon hide-element ml-3"></i></button>
+                        <i class="bars-icon fa fa-bars py-2 px-3 fa-2x"></i>
                     </div> <!-- right side -->
                 </div>
             </div>
 
         </section>
-        <nav class="navbar hidden">
+        <nav class="navbar d-none">
             <ul>
                 <li><a href="">ffhg</a></li>
                 <li><a href="">ffhg</a></li>
