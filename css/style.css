@@ -162,7 +162,6 @@ footer {
   border-left-width: 0;
 }
 
-
 .search-form .icon-search {
   background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
   width: 20px;
@@ -476,7 +475,39 @@ footer ul {
   }
 }
 
-@media screen and (min-width: 992px) {
+/* just footer media query*/
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-footer {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .logo-footer svg {
+    margin: 0 20px 0 0;
+  }
+  .footer-bottom li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  footer {
+    border-top: 1px solid #f4f5f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 991px) {
   .top-navbar {
     height: 95px;
     padding: 20px 10px 15px;
@@ -510,7 +541,13 @@ footer ul {
     display: none;
   }
 
-  nav {
-    /* display: none; */
+  .container-fluid {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  section {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 }
