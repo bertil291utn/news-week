@@ -130,6 +130,68 @@ footer {
   padding: 0 3px 0 0;
 }
 
+.navbar {
+  background-color: #fff;
+  padding-right: 160px;
+  padding: 15px 160px 0 0;
+}
+.navbar::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 66px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+.navbar li {
+  text-align: center;
+  border-left: 1px solid #d9d9d9;
+  flex-grow: 1;
+}
+
+.navbar li a {
+  margin-left: 3px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.navbar li:first-child {
+  border-left-width: 0;
+}
+
+
+.search-form .icon-search {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  margin: 0;
+  top: 18px;
+  right: 80px;
+}
+
+.search-form input {
+  width: 60px;
+  height: 54px;
+  top: 0;
+  border: 0;
+  right: 102px;
+}
+
+.search-form input[type="text"]:focus {
+  width: calc(100% - 102px);
+  outline: none;
+  text-indent: 15px;
+  transition: all 0.3s ease;
+}
+
+.search-form input[type="text"]:focus::placeholder {
+  color: transparent;
+}
+
 /* MAIN CONTENT */
 .text-muted {
   color: #03030366 !important;
@@ -446,5 +508,9 @@ footer ul {
 
   .bars-icon {
     display: none;
+  }
+
+  nav {
+    /* display: none; */
   }
 }
