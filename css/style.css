@@ -13,6 +13,7 @@ h6 {
 
 body {
   font-family: "Roboto Condensed", sans-serif !important;
+  background-color: #f4f5f7;
 }
 
 .hidden {
@@ -23,6 +24,10 @@ body {
 
 .container {
   padding: 0;
+}
+
+main {
+  margin-bottom: 15px;
 }
 
 main section {
@@ -52,15 +57,32 @@ article p {
   font-size: 13px;
 }
 
+.border-top {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: white;
+}
+
 /* HEADER */
 
 .top-navbar {
   background-color: red;
 }
 
-.logo img {
+.logo-nav img {
   width: 131px;
   height: 20px;
+  filter: invert(100%);
 }
 
 .header-right .fa {
@@ -88,7 +110,7 @@ article p {
 }
 
 main {
-  background-color: #f4f5f7;
+  /* background-color: #f4f5f7; */
 }
 
 .top-imagen .category {
@@ -124,11 +146,7 @@ main {
   padding-top: 0;
 }
 
-.opinion li {
-  border-top: 1px solid #ddd;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+/* .opinion li */
 
 .debate-item#first-by-linea {
   border-top: 4px solid #f92859;
@@ -167,4 +185,182 @@ main {
   color: #d6d6d6;
   font: bold 14px/40px "Roboto Condensed", sans-serif;
   margin: 14px auto 18px;
+}
+
+.more-stories .image-headshot img {
+  float: left;
+  width: 95px;
+  margin-right: 15px;
+}
+
+.more-stories .h6 {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.culture-travel .h2 {
+  font-family: "Lora", sans-serif;
+  font-size: 20px;
+}
+
+.culture-travel p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #27272780;
+}
+
+.culture-travel .category {
+  color: #272727;
+  background-color: #c2d4d7;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 0 6px;
+}
+
+.culture-travel .category a {
+  font-size: 13px;
+}
+
+.latest-news li {
+  margin-bottom: 15px;
+}
+
+.title-maganize {
+  margin-bottom: 15px;
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+}
+
+.title-maganize .icon {
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.in-the-magazine .button-magazine {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.in-the-magazine .button-magazine::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+  filter: invert(100%);
+}
+
+.bottom-article .first-article {
+  margin-top: 0;
+}
+
+.features {
+  margin: 10px 0;
+}
+.features .first-feature {
+  background-color: red;
+  color: #fff;
+  margin-right: 7px;
+  padding: 5px;
+}
+
+.features .next-features {
+  color: red;
+}
+
+.editors-pick .border-top {
+  margin-top: 0;
+}
+
+.featured-slideshows .icon {
+  margin-right: 13px;
+}
+
+.featured-slideshows .icon::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.featured-slideshows .category a {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0 / contain no-repeat;
+  color: #e9212e;
+}
+
+.featured-slideshows .subtitle {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  font-size: 14px;
+}
+
+footer .container-fluid {
+  padding: 20px 15px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  margin: 0;
+}
+
+.social li {
+  padding: 0 8px;
+  font-size: 25px;
+}
+
+.logo-footer svg {
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: red;
+}
+
+.footer-bottom {
+  margin-right: 20px;
+}
+
+.footer-bottom label {
+  margin-right: 15px;
+}
+
+.footer-bottom li {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 2px 0;
+}
+.footer-links-edition {
+  margin: 6px 0;
 }
