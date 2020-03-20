@@ -281,7 +281,7 @@ header {
 }
 
 .more-stories .h6 {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 17px;
 }
 
@@ -449,7 +449,7 @@ footer ul {
 }
 
 /* MEDIA QUERYS BREAKPOINTS */
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 408px) {
   .weather-deg.hide-element {
     display: block;
   }
@@ -474,7 +474,8 @@ footer ul {
   }
 }
 
-/* just footer media query*/
+/* just footer media query */
+
 @media screen and (min-width: 768px) {
   body {
     background-color: #fff;
@@ -495,11 +496,15 @@ footer ul {
     font-size: 20px;
   }
 
-  .editors-pick h1 {
-    font-size: 24px;
-  }
+  .top-story p,
+  .featured-stories p,
   .editors-pick p {
     font-size: 15px;
+  }
+
+  .featured-stories h1,
+  .editors-pick h1 {
+    font-size: 24px;
   }
 
   .featured-slideshows .subtitle a {
