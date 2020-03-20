@@ -77,6 +77,12 @@ footer {
   display: none;
 }
 
+.float-image-articles {
+  float: left;
+  width: 95px;
+  margin-right: 15px;
+}
+
 /* HEADER */
 
 .top-navbar {
@@ -271,11 +277,11 @@ footer {
   margin: 14px auto 18px;
 }
 
-.more-stories .image-headshot img {
+/* .more-stories .image-headshot img {
   float: left;
   width: 95px;
   margin-right: 15px;
-}
+} */
 
 .more-stories .h6 {
   font-size: 13px;
@@ -481,6 +487,12 @@ footer ul {
     background-color: #fff;
   }
 
+  .in-the-magazine .title-maganize {
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
   .footer-top {
     display: flex;
     justify-content: space-between;
@@ -494,10 +506,15 @@ footer ul {
   .logo-footer svg {
     margin: 0 20px 0 0;
   }
+
   .footer-bottom li {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
     margin-right: 10px;
+  }
+
+  .footer-bottom li:last-child {
+    border: 0;
   }
 
   footer {
