@@ -97,7 +97,6 @@ footer {
 
 .content-top {
   margin: 0 15px 0 15px;
-  padding-top: 30px;
 }
 
 .bottom-content {
@@ -128,6 +127,30 @@ a:hover {
 
 .hover-unset:hover {
   color: unset;
+}
+
+.hover-facebook:hover {
+  color: #3b5998;
+}
+
+.hover-twitter:hover {
+  color: #1da1f2;
+}
+
+.hover-instagram:hover {
+  color: #405de6;
+}
+
+.hover-tumblr:hover {
+  color: #35465c;
+}
+
+.hover-linkedin:hover {
+  color: #0077b5;
+}
+
+button.bg-light:hover {
+  background-color: #fff !important;
 }
 
 /* HEADER */
@@ -249,6 +272,11 @@ header {
 }
 
 /* MAIN CONTENT */
+
+.second-col-content .row {
+  margin: 0;
+}
+
 .text-muted {
   color: #03030366 !important;
   font-weight: bolder;
