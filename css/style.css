@@ -34,11 +34,12 @@ body {
 
 main {
   margin-bottom: 15px;
+  padding-top: 70px;
+  background-color: white;
 }
 
 main section {
   width: 100%;
-  /* padding: 15px; */
   margin-right: auto;
   margin-left: auto;
   background-color: white;
@@ -89,17 +90,44 @@ footer {
   margin-right: 15px;
 }
 
-.bottom-content {
-  padding: 0 15px;
-}
-
 .col-lg-3,
 .col-lg-6 {
   padding: 0;
 }
 
 .content-top {
-  margin: 30px 15px 0 15px;
+  margin: 0 15px 0 15px;
+  padding-top: 30px;
+}
+
+.bottom-content {
+  padding: 0 15px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.hover-underline:hover {
+  color: #000;
+  text-decoration: underline #f72210;
+}
+
+.hover-color:hover {
+  color: red;
+}
+
+.hover-unset:hover {
+  color: unset;
 }
 
 /* HEADER */
@@ -163,6 +191,7 @@ header {
   padding-right: 160px;
   padding: 15px 160px 0 0;
 }
+
 .navbar::before {
   position: absolute;
   top: 0;
@@ -567,6 +596,10 @@ footer ul {
 }
 
 @media screen and (min-width: 991px) {
+  main {
+    padding-top: 0;
+  }
+
   .top-navbar {
     height: 95px;
     padding: 20px 10px 15px;
@@ -590,6 +623,7 @@ footer ul {
 
   .content-top {
     margin: 30px 30px 0 30px;
+    padding-top: 0;
   }
 
   .contenedor-nav .center-logo {
@@ -614,5 +648,9 @@ footer ul {
 
   footer .container-fluid {
     padding: 20px 30px;
+  }
+
+  .fixed {
+    position: inherit;
   }
 }
