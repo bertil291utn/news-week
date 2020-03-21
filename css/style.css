@@ -169,6 +169,7 @@ button.bg-light:hover {
 }
 
 /* HEADER */
+
 header {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -288,6 +289,16 @@ header {
 }
 
 /* MAIN CONTENT */
+
+.sponser-insight .top-imagen h6 {
+  color: #3581f4;
+  margin: 0;
+}
+
+.bottom-article-insight {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
 
 .second-col-content .row {
   margin: 0;
@@ -495,6 +506,7 @@ header {
   margin-right: 15px;
   margin-bottom: 12px;
   fill: red;
+  enable-background: new 0 0 395.6 60;
 }
 
 .footer-bottom {
