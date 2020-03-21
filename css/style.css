@@ -1,4 +1,4 @@
-/* GLOBAL CLASSES*/
+/* GLOBAL CLASSES */
 h1,
 h2,
 h3,
@@ -77,7 +77,22 @@ article p {
 }
 
 footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  font-size: 14px;
   background-color: white;
+}
+
+footer .container-fluid {
+  padding: 20px 15px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  margin: 0;
 }
 
 .hide-element {
@@ -172,7 +187,7 @@ header {
   color: #fff;
 }
 
-.left-container date {
+.left-container .date {
   color: #fff;
 }
 
@@ -201,6 +216,7 @@ header {
   padding: 1px 3px;
   color: red;
 }
+
 .subscribe i {
   color: red;
 }
@@ -211,7 +227,6 @@ header {
 
 .navbar {
   background-color: #fff;
-  padding-right: 160px;
   padding: 15px 160px 0 0;
 }
 
@@ -226,6 +241,7 @@ header {
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
 }
+
 .navbar li {
   text-align: center;
   border-left: 1px solid #d9d9d9;
@@ -238,8 +254,8 @@ header {
   font-size: 19px;
 }
 
-.navbar li:first-child {
-  border-left-width: 0;
+.latest-news li {
+  margin-bottom: 15px;
 }
 
 .search-form .icon-search {
@@ -310,18 +326,13 @@ header {
   color: #555;
 }
 
-.opinion li:first-child {
-  border-top: 0;
-  padding-top: 0;
-}
-
 /* .opinion li */
 
-.debate-item#first-by-linea {
+.debate-item.first-by-linea {
   border-top: 4px solid #f92859;
 }
 
-.debate-item#second-by-linea {
+.debate-item.second-by-linea {
   border-top: 4px solid #1c87fb;
 }
 
@@ -385,10 +396,6 @@ header {
   font-size: 13px;
 }
 
-.latest-news li {
-  margin-bottom: 15px;
-}
-
 .title-maganize {
   margin-bottom: 15px;
   font: bold 19px/19px "Roboto Condensed", sans-serif;
@@ -425,6 +432,7 @@ header {
 .features {
   margin: 10px 0;
 }
+
 .features .first-feature {
   background-color: red;
   color: #fff;
@@ -476,24 +484,6 @@ header {
   margin: 20px 0;
 }
 
-footer {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #666;
-  font-size: 14px;
-}
-
-footer .container-fluid {
-  padding: 20px 15px;
-}
-
-footer p {
-  margin: 0;
-}
-
-footer ul {
-  margin: 0;
-}
-
 .social li {
   padding: 0 8px;
   font-size: 25px;
@@ -520,11 +510,13 @@ footer ul {
   padding-right: 10px;
   margin: 2px 0;
 }
+
 .footer-links-edition {
   margin: 6px 0;
 }
 
 /* MEDIA QUERYS BREAKPOINTS */
+
 @media screen and (min-width: 408px) {
   .weather-deg.hide-element {
     display: block;
@@ -535,6 +527,7 @@ footer ul {
   .subscribe .hide-element {
     display: block;
   }
+
   .header-right button {
     font-size: 18px;
   }
@@ -633,7 +626,7 @@ footer ul {
     padding: 20px 10px 15px;
   }
 
-  .left-container date {
+  .left-container .date {
     display: block;
   }
 
@@ -681,4 +674,13 @@ footer ul {
   .fixed {
     position: inherit;
   }
+}
+
+.navbar li:first-child {
+  border-left-width: 0;
+}
+
+.opinion li:first-child {
+  border-top: 0;
+  padding-top: 0;
 }
