@@ -1,10 +1,11 @@
-# Heatmap of the Smashing magazine
+# Responsive Design News Week  
 
-> This project consists of building a heatmap of the Smashing magazine website
+> In this project, you’ll get a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it – <a href="https://www.newsweek.com/"> Newsweek</a>
 
-![image](https://user-images.githubusercontent.com/24902525/76262716-1b56a380-622b-11ea-83db-238c9bc42c64.png)
+![image](https://user-images.githubusercontent.com/24902525/77235489-07446780-6b84-11ea-9e0b-646833691450.png)
+<img src="https://user-images.githubusercontent.com/24902525/77235501-29d68080-6b84-11ea-9d9c-416f6a1acbe7.png" alt="image" width="400" /><img src="https://user-images.githubusercontent.com/24902525/77235511-39ee6000-6b84-11ea-8c48-a5b4e001ec98.png" alt="image" width="600" />
 
-In this simple project, you’ll be breaking apart the website for a popular design magazine with which you’re probably familiar by now – Smashing Magazine. The goal for this exercise is to start training yourself to think in terms of visual hierarchy, typography and design principles.
+In this simple project, you’ll be breaking apart the website for a popular design page with which you’re probably familiar by now – News Week. The goal for this exercise is to start training yourself to think in terms of responsive design
 
 ## Built With
 
@@ -13,7 +14,7 @@ In this simple project, you’ll be breaking apart the website for a popular des
 
 ## Live demo
 
-<a href="https://raw.githack.com/bertil291utn/smashing-heat-map/feature-branch/index.html" target="_blank">Check it out</a>💻
+<a href="https://rawcdn.githack.com/bertil291utn/news-week/655ebc9bace7bc5113ed1206162ee8ec18dbe07c/index.html" target="_blank">Check it out</a>💻
 
 ## Getting Started
 
