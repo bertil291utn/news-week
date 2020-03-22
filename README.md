@@ -14,7 +14,7 @@ In this simple project, you’ll be breaking apart the website for a popular des
 
 ## Live demo
 
-<a href="https://rawcdn.githack.com/bertil291utn/news-week/c2a92e809494e797cc97774eca69f276b405a156/index.html" target="_blank">Check it out</a>💻
+<a href="https://rawcdn.githack.com/bertil291utn/news-week/655ebc9bace7bc5113ed1206162ee8ec18dbe07c/index.html" target="_blank">Check it out</a>💻
 
 ## Getting Started
 
