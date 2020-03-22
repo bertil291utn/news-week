@@ -51,10 +51,6 @@ a {
   text-decoration: none;
 }
 
-article {
-  margin: 25px 0;
-}
-
 article .h2 {
   margin-top: 10px;
   font-size: 22px;
@@ -255,8 +251,13 @@ header {
   font-size: 19px;
 }
 
-.latest-news li {
+.latest-news li,
+.section-picks li {
   margin-bottom: 15px;
+}
+
+.section-picks .h2 {
+  color: red;
 }
 
 .search-form .icon-search {
